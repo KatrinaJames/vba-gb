@@ -3,8 +3,8 @@ Gameboy emulator written in VBA and Excel
 
 ## Screenshots
 
-![Title](./title.png)
-![Gameplay](./gameplay.png)
+![Title](title.png?raw=true "Title")
+![Gameplay](gameplay.png?raw=true "Gameplay")
 
 ## Issues
 
