@@ -15,7 +15,7 @@ Public Sub Class_Initialize()
 End Sub
 
 Public Function GetRamByteAt(ByVal index As Long) As Byte
-    GetRomByteAt = ram(index)
+    GetRamByteAt = ram(index)
 End Function
 
 Public Sub SetRamByteAt(ByVal index As Long, ByVal value As Byte)
