@@ -3,8 +3,8 @@ Gameboy emulator written in VBA and Excel
 
 ## Screenshots
 
-![Title](https://github.com/KatrinaZathey/vba-gb/title.png "Title")
-![Gameplay](https://github.com/KatrinaZathey/vba-gb/gameplay.png "Gameplay")
+![Title](./title.png)
+![Gameplay](./gameplay.png)
 
 ## Issues
 
