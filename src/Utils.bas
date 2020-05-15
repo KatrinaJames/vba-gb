@@ -3,14 +3,14 @@ Option Explicit
 Option Base 0
 
 Public Declare PtrSafe Function GetAsyncKeyState Lib "user32.dll" (ByVal vKey As Long) As Integer
-Public Const VK_LEFT = &H25 'LEFT ARROW key
-Public Const VK_UP = &H26 'UP ARROW key
-Public Const VK_RIGHT = &H27 'RIGHT ARROW key
-Public Const VK_DOWN = &H28 'DOWN ARROW key
-Public Const VK_SPACE = &H20 'SPACEBAR
-Public Const VK_RETURN = &HD  'ENTER key
-Public Const VK_CONTROL = &H11 'CTRL key
-Public Const VK_MENU = &H12 'ALT key
+Public Const VK_LEFT As Long = &H25 'LEFT ARROW key
+Public Const VK_UP As Long = &H26 'UP ARROW key
+Public Const VK_RIGHT As Long = &H27 'RIGHT ARROW key
+Public Const VK_DOWN As Long = &H28 'DOWN ARROW key
+Public Const VK_SPACE As Long = &H20 'SPACEBAR
+Public Const VK_RETURN As Long = &HD 'ENTER key
+Public Const VK_CONTROL As Long = &H11 'CTRL key
+Public Const VK_MENU As Long = &H12 'ALT key
 
 Type ApuRegisters
     nr10 As Long
@@ -123,7 +123,6 @@ End Type
 
 Public Function RightShift(ByVal value As Long, ByVal Shift As Byte) As Long
     
-    Dim i As Byte
     RightShift = value
     
     If Shift > 0 Then

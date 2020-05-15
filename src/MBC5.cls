@@ -54,7 +54,7 @@ Public Function ReadByte(ByVal address As Long) As Byte
     End If
 End Function
 
-Public Sub WriteByte(ByVal address As Long, wbyte As Byte)
+Public Sub WriteByte(ByVal address As Long, ByVal wbyte As Byte)
     Dim offset As Long
 
     ' RAM Enable
